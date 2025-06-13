@@ -1,0 +1,30 @@
+.empresas_marcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    flex-grow: 7; 
+    padding: 1.5em 0em;
+}
+
+.img_empresas_marcas{
+    width: 5%;
+    padding: 1em 0;
+}
+
+
+@media screen and (min-width: 1024px){
+    .empresas_marcas{
+        padding: 5em 18em 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    
+    .img_empresas_marcas {
+        width: 9%;
+        padding: 1em 1em;
+    }
+}
